@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        background-color: rgb(211, 230, 247);
+        gap: 10px;
+      }
+      .container > div {
+        border: 1px solid rgb(9, 10, 10);
+        text-align: center;
+      }
+      .header {
+        grid-column: 1/7;
+        background-color: rgba(67, 160, 241, 0.932);
+        color: aliceblue;
+      }
+
+      .headline {
+        list-style: none;
+        margin: 15px 0 0 0;
+      }
+      .headline li {
+        width: 14.5%;
+        padding: 10px;
+        text-align: center;
+        float: left;
+        margin-bottom: 8px;
+      }
+      .headline li a {
+        display: block;
+        text-decoration: none;
+        padding: 0.5em 5px;
+        font-weight: bolder;
+        color: #f2f2f2;
+        border-radius: 8px;
+        -webkit-box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, 0.3);
+        box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, 0.3);
+      }
+
+      .sidebar {
+        grid-column: 1/2;
+        background-color: rgba(8, 103, 185, 0.932);
+        color: aliceblue;
+      }
+      .main {
+        grid-column: 2/5;
+        background-color: rgba(8, 103, 185, 0.932);
+        color: aliceblue;
+      }
+
+      .aside {
+        grid-column: 5/7;
+        background-color: rgba(8, 103, 185, 0.932);
+        color: aliceblue;
+      }
+
+      .footer {
+        grid-column: 1/7;
+        background-color: #aed6f1;
+        color: rgb(2, 12, 20);
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Grid Layout</h1>
+    <div class="container">
+      <div class="header">
+        <ul class="headline">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Information</a></li>
+          <li><a href="">Sevice</a></li>
+          <li><a href="">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="sidebar">
+        <h1>sidebar</h1>
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deserunt
+        accusamus facere cum minus aut amet laudantium ipsam tempore, rem
+        inventore natus voluptatibus, aliquid quidem eaque iusto, repudiandae
+        dolorum reprehenderit laborum. Quod, aut ducimus. Suscipit ea ab nemo
+        eaque facilis quo eius quos laborum tempore magni non fugiat voluptas
+        voluptatum quibusdam repellat soluta, veniam dolor at consequuntur
+        similique nulla earum veritatis mollitia! Ipsam, quis. Odio officia
+        doloribus, enim obcaecati magnam impedit, voluptas deserunt quas dolor
+        in mollitia quibusdam eos, repellendus totam tempora! Quam illo et
+        exercitationem molestiae natus numquam, ullam dolores qui facere
+        corrupti nesciunt illum culpa atque beatae placeat?
+      </div>
+      <div class="main">
+        <h1>main</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        deleniti nam minus maxime esse, enim sit non facilis, consectetur sint
+        inventore ab. Minima, amet. Mollitia reiciendis optio labore ut
+        praesentium!
+      </div>
+      <div class="aside">
+        <h1>aside</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eligendi
+        provident quam voluptas ducimus nesciunt unde. Voluptate iusto quas
+        dolorum. Neque iure itaque quos pariatur sunt iusto velit delectus,
+        optio, excepturi recusandae repellendus quo nam cupiditate perspiciatis
+        dolorum odio. Aut tenetur atque aliquam magnam sequi laborum quo
+        deserunt nemo enim.
+      </div>
+      <div class="footer">
+        <h1>footer</h1>
+        &copy; Sharmin Akter 2025. All right reserv.
+      </div>
+    </div>
+  </body>
+</html>
