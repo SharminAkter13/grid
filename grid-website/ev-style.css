@@ -1,60 +1,110 @@
+body{
+    margin: 0;
+}
+
+
 .header{
     width: 100%;
+    height: 50px;
 }
 
 .logo{
     width: 20%;
-    background-color: aliceblue;
+    background-image: url(https://pngtree.com/freepng/lion-head-face-logo-silhouette-black-icon-tattoo-mascot-hand-drawn-king-animal-vector-illustration_15317165.html);
+   background-size: cover;
     float: left;
 }
 
 .menu{
-    width: 50%;
-    background-color: rgb(85, 158, 221);
+    width: 60%;
+    /* background-color: rgb(85, 158, 221); */
     float: left;
 
+}
+.menu a button{
+    background-color: rgb(155, 193, 226);
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+
+.menu a button:hover{
+    background-color: aliceblue;
+    color: rgb(161, 46, 11);
 }
 
 .search{
-    width: 30%;
-    background-color: rgb(31, 75, 114);
+    width: 20%;
+    /* background-color: rgb(31, 75, 114); */
     float: left;
+    margin-top: 20px;
 }
 .sub-container{
     width: 100%;
-    height: 400px;
+    
 }
 
 .sidebar{
-    width: 30%;
-    height: 400px;
+   width: 25%;
     float: left;
     background-color: antiquewhite;
+    text-align: center;
 }
+
+.sidebar a button{
+    background-color: rgb(248, 209, 165);
+    width: 90px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.sidebar a button:hover{
+    background-color: aliceblue;
+    color: rgb(161, 46, 11);
+}
+
 
 .main{
     width: 70%;
-    height: 200px;
     float: left;
     background-color: antiquewhite;
+}
+.banner{
+    width: 100%;
+    float: left;
+    
+    /* background-image: url(https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645103_640.jpg);
+    background-size: cover; */
+
+}
+
+.row{
+    width: 100%;
 }
 
 .col1{
         width: 50%;
-        height: 100px;
         float: left;
         background-color: rgb(187, 123, 39);
 }
 
 .col2{
     width: 50%;
-    height: 100px;
     float: left;
     background-color: rgb(34, 189, 73);
 }
 
 footer{
     width: 100%;
+    height: 50px;
     background-color: aliceblue;
-    float: inline-end;
+   float: inline-end;
 }
