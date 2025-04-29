@@ -5,30 +5,31 @@ body{
 
 .header{
     width: 100%;
-    height: 50px;
+    height: 100px;
 }
 
 .logo{
     width: 20%;
-    background-image: url(https://pngtree.com/freepng/lion-head-face-logo-silhouette-black-icon-tattoo-mascot-hand-drawn-king-animal-vector-illustration_15317165.html);
-   background-size: cover;
     float: left;
+    height: 100px;
+    margin-top: 10px;
 }
 
 .menu{
     width: 60%;
     /* background-color: rgb(85, 158, 221); */
     float: left;
-
+    height: 100px;
 }
 .menu a button{
     background-color: rgb(155, 193, 226);
     width: 100px;
     padding: 5px;
     margin: 5px;
-    margin-left: 35px;
+    margin-left: 45px;
     border-radius: 8px;
     font-weight: bold;
+    margin-top: 30px;
     
 }
 
@@ -42,6 +43,7 @@ body{
     /* background-color: rgb(31, 75, 114); */
     float: left;
     margin-top: 20px;
+    height: 100px;
 }
 .sub-container{
     width: 100%;
@@ -50,6 +52,7 @@ body{
 
 .sidebar{
    width: 25%;
+   height: 400px;
     float: left;
     background-color: antiquewhite;
     text-align: center;
@@ -63,6 +66,7 @@ body{
     border-radius: 8px;
     font-weight: bold;
     text-align: center;
+    margin-top: 30px;
     
 }
 
@@ -73,38 +77,43 @@ body{
 
 
 .main{
-    width: 70%;
+    width: 75%;
+    height: 400px;
     float: left;
     background-color: antiquewhite;
 }
 .banner{
     width: 100%;
+    height: 300px;
     float: left;
-    
-    /* background-image: url(https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645103_640.jpg);
-    background-size: cover; */
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645103_640.jpg);
+    background-size: cover;
 
 }
 
 .row{
     width: 100%;
+    height: 100px;
 }
 
 .col1{
         width: 50%;
+        height: 100px;
         float: left;
         background-color: rgb(187, 123, 39);
 }
 
 .col2{
     width: 50%;
+    height: 100px;
     float: left;
     background-color: rgb(34, 189, 73);
 }
 
 footer{
     width: 100%;
-    height: 50px;
+    height: 1000px;
     background-color: aliceblue;
    float: inline-end;
+   text-align: center;
 }
