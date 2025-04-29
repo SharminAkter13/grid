@@ -1,0 +1,60 @@
+.header{
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    background-color: aliceblue;
+    float: left;
+}
+
+.menu{
+    width: 50%;
+    background-color: rgb(85, 158, 221);
+    float: left;
+
+}
+
+.search{
+    width: 30%;
+    background-color: rgb(31, 75, 114);
+    float: left;
+}
+.sub-container{
+    width: 100%;
+    height: 400px;
+}
+
+.sidebar{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.main{
+    width: 70%;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.col1{
+        width: 50%;
+        height: 100px;
+        float: left;
+        background-color: rgb(187, 123, 39);
+}
+
+.col2{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: rgb(34, 189, 73);
+}
+
+footer{
+    width: 100%;
+    background-color: aliceblue;
+    float: inline-end;
+}
