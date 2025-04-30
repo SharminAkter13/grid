@@ -1,123 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magazine Layout</title>
-    <link rel="stylesheet" href="style-magn.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style-magn.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <div class="logo">
-                <a href="/"><h1>[Magazine Name]</h1></a>
+      <header class="header">
+        <div class="logo">
+          <img src="pngegg.png" style="width: 100px" />
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <section class="featured-article">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/daisy-edgar-jones-loafers-670ce30ae9c6a.jpg?resize=980:*"
+            alt="Featured Article"
+          />
+          <div class="featured-text">
+            <h2>How to Achieve Daisy Edgar-Jones’s Romantic Side Fringe</h2>
+            <p class="author">By [Author Name]</p>
+            <p class="excerpt">
+              An in-depth look at the groundbreaking advancements and potential
+              impact of [Topic] on our society and beyond...
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </section>
+
+        <section class="grid-articles">
+          <article class="article-item article-item-1">
+            <img
+              src="https://assets.vogue.com/photos/680fd1eb0d69d044d931c3ad/master/w_1600,c_limit/BLU_A106121509.jpg"
+              alt="Article 1"
+            />
+            <h3>According to Bella Hadid, the Sheer Trend Is Still Here</h3>
+            <p class="category">Fashion</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <article class="article-item article-item-2">
+            <img
+              src="https://assets.vogue.com/photos/680f928d6a0520beb2899a50/master/w_1600,c_limit/2211807606"
+              alt="Article 2"
+            />
+            <h3>
+              Sofia Richie Grainge Elevates Her Spring Style With a Picnic-Ready
+              Purse
+            </h3>
+            <p class="category">Culture</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <article class="article-item article-item-3">
+            <img src="images/article-3.jpg" alt="Article 3" />
+            <h3>Eat This Protein Superfood for Longer Hair</h3>
+            <p class="category">Beauty</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <article class="article-item article-item-4">
+            <img
+              src="https://assets.vogue.com/photos/671a883183a86553f8730c84/16:9/w_1600%2Cc_limit/m-22.jpg"
+              alt="Article 4"
+            />
+            <h3>
+              The Bride Wore Alexander McQueen for Her Coastal Cowboy Wedding in
+              Montecito, California
+            </h3>
+            <p class="category">Wedding</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <article class="article-item article-item-5">
+            <img src="images/article-5.jpg" alt="Article 5" />
+            <h3>A Conversation with [Interesting Person]</h3>
+            <p class="category">Culture</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <article class="article-item article-item-6">
+            <img
+              src="https://assets.vogue.com/photos/67fe039b3ae85491b4dee5a6/master/w_1600,c_limit/Temple---Songkran_0047.jpg"
+              alt="Article 6"
+            />
+            <h3>
+              How Fish Cheeks Cofounder Jenn Saesue Celebrates Thai New Year
+            </h3>
+            <p class="category">Lifestyle</p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+        </section>
+
+        <aside class="sidebar">
+          <div class="widget">
+            <h3>Popular This Week</h3>
+            <ul>
+              <li><a href="#">Article Title 1</a></li>
+              <li><a href="#">Another Interesting Story</a></li>
+              <li><a href="#">Top 5 [Things]</a></li>
+              <li><a href="#">A Look Back At...</a></li>
+            </ul>
+          </div>
+          <div class="widget">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"
+                ><img src="images/facebook-icon.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="images/twitter-icon.png" alt="Twitter"
+              /></a>
+              <a href="#"
+                ><img src="images/instagram-icon.png" alt="Instagram"
+              /></a>
             </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Culture</a></li>
-                    <li><a href="#">Fashion</a></li>
-                    <li><a href="#">Lifestyle</a></li>
-                    <li><a href="#">Travel</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+          </div>
+          <div class="widget">
+            <h3>Newsletter</h3>
+            <p>Stay up-to-date with our latest stories.</p>
+            <form>
+              <input type="email" placeholder="Your Email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </aside>
+      </main>
 
-        <main class="main-content">
-            <section class="featured-article">
-                <img src="images/featured-image.jpg" alt="Featured Article">
-                <div class="featured-text">
-                    <h2>The Future of [Topic] is Here</h2>
-                    <p class="author">By [Author Name]</p>
-                    <p class="excerpt">An in-depth look at the groundbreaking advancements and potential impact of [Topic] on our society and beyond...</p>
-                    <a href="#" class="read-more">Read More</a>
-                </div>
-            </section>
-
-            <section class="grid-articles">
-                <article class="article-item article-item-1">
-                    <img src="images/article-1.jpg" alt="Article 1">
-                    <h3>The Art of [Subject]</h3>
-                    <p class="category">Culture</p>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-                <article class="article-item article-item-2">
-                    <img src="images/article-2.jpg" alt="Article 2">
-                    <h3>Trending Styles for [Season]</h3>
-                    <p class="category">Fashion</p>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-                <article class="article-item article-item-3">
-                    <img src="images/article-3.jpg" alt="Article 3">
-                    <h3>Exploring the Hidden Gems of [Location]</h3>
-                    <p class="category">Travel</p>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-                <article class="article-item article-item-4">
-                    <img src="images/article-4.jpg" alt="Article 4">
-                    <h3>[Health/Tech] Tips for a Better Life</h3>
-                    <p class="category">Lifestyle</p>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-                <article class="article-item article-item-5">
-                    <img src="images/article-5.jpg" alt="Article 5">
-                    <h3>A Conversation with [Interesting Person]</h3>
-                    <p class="category">Culture</p>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-                <article class="article-item article-item-6">
-                    <img src="images/article-6.jpg" alt="Article 6">
-                    <h3>The Latest in [Tech/Design]</h3>
-                    <p class="category">Lifestyle</p>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-            </section>
-
-            <aside class="sidebar">
-                <div class="widget">
-                    <h3>Popular This Week</h3>
-                    <ul>
-                        <li><a href="#">Article Title 1</a></li>
-                        <li><a href="#">Another Interesting Story</a></li>
-                        <li><a href="#">Top 5 [Things]</a></li>
-                        <li><a href="#">A Look Back At...</a></li>
-                    </ul>
-                </div>
-                <div class="widget">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
-                        <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-                        <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
-                    </div>
-                </div>
-                <div class="widget">
-                    <h3>Newsletter</h3>
-                    <p>Stay up-to-date with our latest stories.</p>
-                    <form>
-                        <input type="email" placeholder="Your Email">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-            </aside>
-        </main>
-
-        <footer class="footer">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Advertise</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-            <p>&copy; 2025 [Magazine Name]. All rights reserved.</p>
-        </footer>
+      <footer class="footer">
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2025 [Magazine Name]. All rights reserved.</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
