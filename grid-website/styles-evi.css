@@ -110,6 +110,7 @@ header {
     grid-row: 2/5; */
     float: left;
     height: 500px;
+    width: 200px;
 }
 
 .sidebar button {
@@ -134,7 +135,7 @@ header {
     background-image: url('https://cdn.pixabay.com/photo/2017/10/03/17/53/nature-2813487_640.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .text-blocks {
@@ -149,12 +150,12 @@ header {
 
 .text-block.c1 {
     background-color: #deb887; /* Sandy Brown */
-    height: 200px;
+    height: 100px;
 }
 
 .text-block.c2 {
     background-color: #90ee90; /* Light Green */
-    height: 200px;
+    height: 100px;
 }
 
 footer {
